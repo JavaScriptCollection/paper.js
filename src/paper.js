@@ -97,6 +97,7 @@ var paper = new function(undefined) {
 /*#*/ include('dom/node.js');
 /*#*/ } // options.environment == 'node'
 /*#*/ include('dom/DomElement.js');
+/*#*/ include('dom/DomSceneObject.js');
 /*#*/ if (options.environment == 'browser') {
 // DomEvent doesn't make sense outside of the browser (yet)
 /*#*/ include('dom/DomEvent.js');
